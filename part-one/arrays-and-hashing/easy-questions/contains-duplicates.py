@@ -8,6 +8,6 @@ def containsDuplicate(nums: list[int]) -> bool:
     return False
 
 # Insert list to pass to function
-answ = containsDuplicate()
+answ = containsDuplicate([1, 2, 3, 3])
 
 print(answ)
